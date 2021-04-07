@@ -17,3 +17,5 @@ String name = pref.getString("name", "");
 int age = pref.getInt("age", 0);
 boolean married = pref.getBoolean("married", false);
 ```
+## 2021-4-7 用SharedPreferences完成简易登录界面  
+学习使用CheckBox,运用存储与读取完成登录操作，再通过intent来完成页面跳转
